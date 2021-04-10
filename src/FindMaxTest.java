@@ -1,11 +1,12 @@
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 public class FindMaxTest {
     FindMax testObject = new FindMax();
     @Test
     void FindMaxTest(){
-        int testMaximum = testObject.findMaximum(56,13,35);
-        Assert.assertEquals(56,testMaximum);
+        double testMaximum = testObject.findMaximum(12.2258,12.2259,12.2257);
+        Assertions.assertEquals(12.2259,testMaximum);
     }
 
 
