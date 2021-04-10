@@ -33,4 +33,16 @@ public class FindMax < E extends Comparable<E>> {
         return FindMax.findMaximumGeneric(firstParameter,secondParameter,thirdParameter,fourthParameter,fifthParameter,sixthParameter);
     }
 
+    public void printMaximum(){
+
+        System.out.println("THE MAXIMUM OF :"+firstParameter+" , "+secondParameter+" , "+thirdParameter+" , "+fourthParameter+" , "+fifthParameter+" , "+sixthParameter+" IS :");
+        System.out.println(findMaximumGeneric(firstParameter,secondParameter,thirdParameter,fourthParameter,fifthParameter,sixthParameter));
+
+    }
+
+    public static void main(String[] args) {
+        new FindMax(12.2678,12.2679,12.2677,12.789,12.2675,12.2673).printMaximum();
+        new FindMax("Shreyas Iyyer","Prithvi Shaw","Rishbah Pant","Jadeza","Kohli","ABD").printMaximum();
+    }
+
 }
