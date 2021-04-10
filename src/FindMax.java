@@ -1,4 +1,8 @@
 public class FindMax {
+    public static void main(String[] args) {
+
+    }
+
     public  Integer findMaximum(Integer firstNumber, Integer secondNumber, Integer thirdNumber){
         if(firstNumber.compareTo(secondNumber) > 0 && firstNumber.compareTo(thirdNumber) > 0)
             return firstNumber;
