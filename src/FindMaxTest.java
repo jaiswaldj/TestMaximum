@@ -5,7 +5,7 @@ public class FindMaxTest {
     @Test
     void FindMaxTest(){
         int testMaximum = testObject.findMaximum(56,13,35);
-        Assert.assertEquals(28,testMaximum);
+        Assert.assertEquals(56,testMaximum);
     }
 
 
